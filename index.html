@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sign Up</title>
+</head>
+<body>
+    <div class="container">
+        <div class="left-block">
+            <div class="logo-block"></div>
+            <div class="logo">
+                <img src="assets/odin-lined.png" alt="odin logo">
+                <h1>ODIN</h1>
+            </div>
+        </div>
+        <div class="right-block">
+            <div class="header">
+                <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. <br>Sign up now to get started.</p>
+                <br>
+                <p>You know you want to.</p>
+            </div>
+            <div class="formfield">
+                <p>Let's do this!</p>
+                <form action="#" method="post">
+                    <div class="input">
+                        <label for="fname">FIRST NAME</label>
+                        <input type="text" name="fname" id="fname" required>
+                    </div>
+                    <div class="input">
+                        <label for="lname">LAST NAME</label>
+                        <input type="text" name="lname" id="lname" required>
+                    </div>
+                    <div class="input">
+                        <label for="email">EMAIL</label>
+                        <input type="email" name="emain" id="email" required>
+                    </div>
+                    <div class="input">
+                        <label for="phone">PHONE NUMBER</label>
+                        <input type="text" name="phone" id="phone">
+                    </div>
+                    <div class="input">
+                        <label for="password">PASSWORD</label>
+                        <input type="text" name="password" id="password1" class="error" required>
+                        <p class="hidden">* Passwords do not match</p>
+                    </div>
+                    <div class="input">
+                        <label for="password">CONFIRM PASSWORD</label>
+                        <input type="text" name="password" id="password2" class="error" required>
+                    </div>
+                    <button type="submit">Create Account</button>
+                </form>
+            </div>
+            <div class="footer">
+                <br>
+                <br>
+                <p>Already have an account? <a href="#">Log in</a></p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js" await></script>
+</body>
+</html>

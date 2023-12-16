@@ -1,0 +1,135 @@
+@font-face {
+    font-family: 'Norse';
+    src: url(assets/Norse-Bold.otf); 
+}
+
+* {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.left-block {
+    background-image: url(assets/left.jpg);
+    background-size: cover;
+    width: 30vw;
+    position: relative;
+}
+
+.logo {
+    position: relative;
+    width: 100%;
+    height: 20%;
+    top: 18.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: xx-large;
+    font-size: xx-large;
+}
+
+.logo-block {
+    position: absolute;
+    background-color: #000;
+    width: 100%;
+    height: 20%;
+    top: 15.5vh;
+    opacity: 0.5;
+}
+
+img {
+    height: 70%;
+}
+
+h1 {
+    font-family: 'Norse';
+}
+
+.right-block {
+    width: 70vw;
+}
+
+.header {
+    padding: 12vh 15vw 5vh 5vw;
+    font-weight: bolder;
+    font-size: x-large;
+    background-color: #E5E7EB;
+}
+.formfield {
+    padding: 1vh 20vw 5vh 5vw;
+}
+
+.formfield p {
+    margin-bottom: 1vh;
+    margin-top: 1vh;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50vw;
+    justify-content: space-between;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: 1vh 2vw 1vh 0;
+}
+
+.formfield input {
+    padding: 1.5%;
+    border-style: none;
+    border: 1px solid #E5E7EB;
+    border-radius: 5px;
+}
+
+#password1, #password2 {
+    border: 1px solid red;
+}
+
+input:focus {
+    outline: none;
+    border: 1px solid blue;
+    box-shadow: 1px 1px 2px 2px #888;
+}
+
+
+
+.footer {
+    background-color: #E5E7EB;
+    padding: 5vh 20vw 16vh 5vw;
+}
+
+button {
+    position: absolute;
+    background-color: #596D48;
+    border-radius: 10px;
+    padding: 1.5vh 3vw;
+    color: white;
+    border-style: none;
+    top: 73.5vh;
+}
+
+a {
+    color: #596D48;
+    text-decoration: none;
+}
+
+.input p {
+    font-size: medium;
+    font-weight: normal;
+    color: red;
+    /* font */
+}
+
+.hidden {
+    display: none;
+}
