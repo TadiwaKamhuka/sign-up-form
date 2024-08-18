@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -60,5 +60,62 @@
         </div>
     </div>
     <script src="script.js" await></script>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="left">
+        <div class="logo">
+            <img src="assets/odin-lined.png" alt="odin logo">
+            <h1>ODIN</h1>
+        </div>
+    </section>
+    <section class="right">
+        <article class="top">
+            <p>This is not a real online service! You know you need something like this in your life to help you realizer your deepest dreams. Sign up now to get started</p>
+            <p>You know you want to</p>
+        </article>
+        <article class="form">
+            <p>Let's do this</p>
+            <form action="POST">
+                <div>
+                    <label for="fname">FIRST NAME</label>
+                    <input type="text" name="fname" id="fname">
+                </div>
+                <div>
+                    <label for="lname">LAST NAME</label>
+                    <input type="text" name="lname" id="lname">
+                </div>
+                <div>
+                    <label for="email">EMAIL</label>
+                    <input type="email" name="email" id="email">
+                </div>    
+                <div>
+                    <label for="phone">PHONE NUMBER</label>
+                    <input type="tel" name="phone" id="phone">
+                </div>
+                <div>
+                    <label for="password">PASSWORD</label>
+                    <input type="password" class="password" required>
+                </div>
+                <div>
+                    <label for="password2">CONFIRM PASSWORD</label>
+                    <input type="password" class="password" required>
+                </div>
+            </form>
+        </article>
+        <article class="bottom">
+            <button>Create Account</button>
+            <p>Already have an account? Log in</p>
+        </article>
+    </section>
 </body>
 </html>
